@@ -1,15 +1,44 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
-.menu{
-    background-color: aqua;
+#titulo{
+    
 }
 
-.cuerpo{
-    background-color: blueviolet;
+#menu{
+    float: left;
+    height: 30vh;
+    padding-right: 50px;
+
 }
 
-.propiedad{
+#cuerpo{
+    border: solid black 1px;
+    float:  left;
+    width: 80vw;
+    height: 30vh;
+    padding: 10px;
+}
+
+#propiedad{
     background-color: red;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin: 10px;
+}
+
+#naranja{
+    color: orange;
+}
+button{
+    width: 100px;
+    background-color: rgb(134, 236, 134);
+    
 }
