@@ -4,7 +4,7 @@ body{
 }
 
 #titulo{
-    
+    text-align: center;
 }
 
 #menu{
@@ -39,6 +39,18 @@ li{
 }
 button{
     width: 100px;
+    height: 40px;
     background-color: rgb(134, 236, 134);
     
+}
+
+button:hover{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(235, 214, 121);
+    
+}
+
+#foto{
+    background-image: url(../img/panoramica.jpg);
 }
